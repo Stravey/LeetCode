@@ -20,5 +20,7 @@ public class LC171 {
         System.out.println(lc171.titleToNumber("A"));
         System.out.println(lc171.titleToNumber("AB"));
         System.out.println(lc171.titleToNumber("ZY"));
+        System.out.println(lc171.titleToNumber("BYQ"));
+        System.out.println(lc171.titleToNumber("AAA"));
     }
 }
