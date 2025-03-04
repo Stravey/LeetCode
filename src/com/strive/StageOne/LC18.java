@@ -22,11 +22,13 @@ public class LC18 {
         }
 
 
+
+
         return result;
     }
 
     public static void main(String[] args) {
         LC18 lc = new LC18();
-        System.out.println(lc.fourSum(new int[]{1,0,-1,0,-2,2}, ));
+        System.out.println(lc.fourSum(new int[]{1,0,-1,0,-2,2},0));
     }
 }
