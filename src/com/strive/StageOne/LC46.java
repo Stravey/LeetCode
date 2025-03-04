@@ -33,7 +33,7 @@ public class LC46 {
 
     public static void main(String[] args) {
         LC46 lc46 = new LC46();
-        int[] nums = {1,2};
+        int[] nums = {1,2,3,4};
         System.out.println(lc46.permute(nums));
     }
 }
