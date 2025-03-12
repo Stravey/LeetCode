@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class GameWin extends JFrame {
 
-    Image image = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/com/strive/GoldMiner/gold.png"));
+    //Image image = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/com/strive/GoldMiner/gold.png"));
 
     void launch() {
         this.setVisible(true);
@@ -17,7 +17,7 @@ public class GameWin extends JFrame {
     }
 
     public void paint(Graphics g) {
-        g.drawImage(image, 0, 0, null);
+        //g.drawImage(image, 0, 0, null);
     }
 
     public static void main(String[] args) {
