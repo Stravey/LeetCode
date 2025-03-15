@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Dot" />
+        <module name="Nowcoder" />
         <module name="Game" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Dot" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
