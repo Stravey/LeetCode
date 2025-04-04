@@ -25,4 +25,8 @@ public class LC115 {
         }
         return dp[m][n];
     }
+
+    public static void main(String[] args) {
+        System.out.println(new LC115().numDistinct("rabbbit", "rabbit"));
+    }
 }
