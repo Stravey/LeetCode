@@ -1,5 +1,8 @@
 package com.strive.StageTwo;
 
+/**
+ * 有序数组的单一元素
+ */
 public class LC540 {
     public int singleNonDuplicate(int[] nums) {
         for(int i = 1;i < nums.length - 1;i++) {
